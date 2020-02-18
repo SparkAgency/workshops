@@ -83,7 +83,7 @@ Z -> C
 
 e portanto a palavra `ABC` passa a ser `DEF` depois de encriptada com a chave `D`.
 
-Logo de seguida numero as letras e mostro como a encriptação é extremamente simples quando vista como uma soma, se começarmos a numerar o alfabeto a partir do $0$ (correspondendo ao `A`) até ao $25$ (correspondendo ao `Z`).
+Logo de seguida numero as letras e mostro como a encriptação é extremamente simples quando vista como uma soma, se começarmos a numerar o alfabeto a partir do `0` (correspondendo ao `A`) até ao `25` (correspondendo ao `Z`).
 
 ```
  0 = A -> D =  3 =  0 + 3
@@ -100,7 +100,7 @@ Logo de seguida numero as letras e mostro como a encriptação é extremamente s
 
 ## Aritmética modular
 
-Podemos ver, no caso em cima, que a letra `X` que tem o número $23$ está a ser encriptada como a letra `A`, que tem o número $0$, apesar de termos $23 + 3 = 26$.
+Podemos ver, no caso em cima, que a letra `X` que tem o número `23` está a ser encriptada como a letra `A`, que tem o número `0`, apesar de termos `23 + 3 = 26`.
 
 [caesar-cipher]: https://en.wikipedia.org/wiki/Caesar_cipher
 [affine-cipher]: https://en.wikipedia.org/wiki/Affine_cipher
