@@ -7,4 +7,4 @@ Aqui podes encontrar os recursos que dizem respeito aos workshops que a Spark d�
 
 # Criptografia com cifras de substituição
 
-[Neste][./crypto-substition-ciphers] workshop vamos usar Python para explorar conceitos básicos de criptografia, usando cifras de substituição, uma família simples de cifras.
+[Neste](./crypto-substition-ciphers) workshop vamos usar Python para explorar conceitos básicos de criptografia, usando cifras de substituição, uma família simples de cifras.
