@@ -3,11 +3,11 @@
 # Introdução à criptografia com cifras de substituição
 
 - [Overview](#overview)
-  - [Pré-requisitos](#pr%c3%a9-requisitos)
-  - [Material necessário](#material-necess%c3%a1rio)
-  - [Duração](#dura%c3%a7%c3%a3o)
-  - [Conteúdos do workshop](#conte%c3%bados-do-workshop)
-  - [Recursos](#recursos)
+- [Pré-requisitos](#pr%c3%a9-requisitos)
+- [Material necessário](#material-necess%c3%a1rio)
+- [Duração](#dura%c3%a7%c3%a3o)
+- [Conteúdos do workshop](#conte%c3%bados-do-workshop)
+- [Recursos](#recursos)
 - [Workshop](#workshop)
   - [Introdução à cifra de César](#introdu%c3%a7%c3%a3o-%c3%a0-cifra-de-c%c3%a9sar)
   - [Aritmética modular](#aritm%c3%a9tica-modular)
@@ -17,19 +17,19 @@
 
 Neste workshop introdutório à criptografia com cifras de substituição, vamos usar Python para explorar as cifras [de César][caesar-cipher] e [afim][affine-cipher]. Durante o workshop vamos ver como encriptar mensagens com cifras de substituição, vamos implementá-las e vamos ainda implementar sistemas para as desencriptar. Vamos também perceber uma das principais fraquezas das cifras de substituição, e em particular das cifras de substituição monoalfabéticas.
 
-## Pré-requisitos
+# Pré-requisitos
 
  - Conhecimentos básicos de programação em Python.
 
-## Material necessário
+# Material necessário
 
  - Computador com [Python 3][python3] instalado.
 
-## Duração
+# Duração
 
 Este workshop está desenhado para 1h30 com participantes do ensino superior, de nenhuma área em particular.
 
-## Conteúdos do workshop
+# Conteúdos do workshop
 
  - Introduzir a cifra de César [20 min];
    - Escolha do alfabeto;
@@ -53,7 +53,7 @@ Este workshop está desenhado para 1h30 com participantes do ensino superior, de
    - Implementação da inversão da fórmula;
    - Implementação da desencriptação.
 
-## Recursos
+# Recursos
 
   - [Cifra de César][caesar-cipher];
   - [Aritmética modular][modular-arithmetic];
