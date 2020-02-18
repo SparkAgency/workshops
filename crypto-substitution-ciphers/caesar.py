@@ -46,3 +46,22 @@ def brute_force(msg):
         decrypted = decrypt(key, msg)
         
         print(f"{str(key).ljust(padding)} - {char} - {decrypted}")
+
+
+if __name__ == "__main__":
+
+    example = "The quick, brownk, fox jumps (!) over the lazy dog."
+
+    print("Original message:")
+    print(f"\t{example}\n")
+    
+    print("Encryptions:")
+    for key in range(len(ABC)):
+        print(f"\t{key} - {encrypt(key, example)}")
+
+    print("\n" + "#"*40 + "\n")
+
+    key = 8
+    encrypted = encrypt(key, example)
+    print(f"With key {key} we got '{encrypted}', now we use brute-force:")
+    brute_force(encrypted)
