@@ -7,6 +7,7 @@
   - [Material necessário](#material-necess%c3%a1rio)
   - [Duração](#dura%c3%a7%c3%a3o)
   - [Conteúdos do workshop](#conte%c3%bados-do-workshop)
+  - [Recursos](#recursos)
 - [Workshop](#workshop)
   - [Introdução à cifra de César](#introdu%c3%a7%c3%a3o-%c3%a0-cifra-de-c%c3%a9sar)
   - [Aritmética modular](#aritm%c3%a9tica-modular)
@@ -52,6 +53,14 @@ Este workshop está desenhado para 1h30 com participantes do ensino superior, de
    - Implementação da inversão da fórmula;
    - Implementação da desencriptação.
 
+## Recursos
+
+  - [Cifra de César][caesar-cipher];
+  - [Aritmética modular][modular-arithmetic];
+  - [Cifra afim][affine-cipher];
+  - [Operador módulo em Python][python-modulo-operator];
+  - Inversos multiplicativos na [Wikipedia][multiplicative-inverses-wikipedia] ou no [KhanAcademy][multiplicative-inverses-khanacademy].
+
 
 # Workshop
 
@@ -96,3 +105,7 @@ Podemos ver, no caso em cima, que a letra `X` que tem o número $23$ está a ser
 [caesar-cipher]: https://en.wikipedia.org/wiki/Caesar_cipher
 [affine-cipher]: https://en.wikipedia.org/wiki/Affine_cipher
 [python3]: https://www.python.org/downloads/
+[modular-arithmetic]: https://en.wikipedia.org/wiki/Modular_arithmetic
+[python-modulo-operator]: https://realpython.com/python-operators-expressions/#arithmetic-operators
+[multiplicative-inverses-wikipedia]: https://en.wikipedia.org/wiki/Modular_multiplicative_inverse
+[multiplicative-inverses-khanacademy]: https://www.khanacademy.org/computing/computer-science/cryptography/modarithmetic/a/modular-inverses
