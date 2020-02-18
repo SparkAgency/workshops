@@ -7,11 +7,11 @@ def encrypt(key, msg):
     encrypted = ""
     
     for char in msg:
-        if char in ABC:
+        try:
             idx = ABC.index(char)
             new_idx = (idx + key) % len(ABC)
             encrypted += ABC[new_idx]
-        else:
+        except ValueError:
             encrypted += char
 
     return encrypted
@@ -23,11 +23,11 @@ def decrypt_dup(key, msg):
     decrypted = ""
 
     for char in msg:
-        if char in ABC:
+        try:
             idx = ABC.index(char)
             new_idx = (idx - key) % len(ABC)
             decrypted += ABC[new_idx]
-        else:
+        except ValueError:
             decrypted += char
 
     return decrypted
