@@ -66,7 +66,7 @@ Este workshop está desenhado para 1h30 com participantes do ensino superior, de
 
 ## Introdução à cifra de César
 
-Começo por introduzir a [cifra de César](caesar-cipher), explicando que a "chave" consiste em escolher uma letra do alfabeto, por exemplo `D`, e depois criar uma correspondência entre duas cópias do alfabeto:
+Introduzir a [cifra de César](caesar-cipher), explicando que a "chave" consiste em escolher uma letra do alfabeto, por exemplo `D`, e depois criar uma correspondência entre duas cópias do alfabeto:
 
 ```
 A -> D
