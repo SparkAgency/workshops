@@ -6,7 +6,8 @@
   - [Pré-requisitos](#pr%c3%a9-requisitos)
   - [Material necessário](#material-necess%c3%a1rio)
   - [Duração](#dura%c3%a7%c3%a3o)
-- [Conteúdo do workshop](#conte%c3%bado-do-workshop)
+  - [Conteúdos do workshop](#conte%c3%bados-do-workshop)
+- [Workshop](#workshop)
   - [Introdução à cifra de César](#introdu%c3%a7%c3%a3o-%c3%a0-cifra-de-c%c3%a9sar)
   - [Aritmética modular](#aritm%c3%a9tica-modular)
 
@@ -27,8 +28,32 @@ Neste workshop introdutório à criptografia com cifras de substituição, vamos
 
 Este workshop está desenhado para 1h30 com participantes do ensino superior, de nenhuma área em particular.
 
+## Conteúdos do workshop
 
-# Conteúdo do workshop
+ - Introduzir a cifra de César [20 min];
+   - Escolha do alfabeto;
+   - Relacionar a cifra de César com aritmética modular;
+   - Fazer algumas encriptações exemplo;
+   - Implementar encriptação.
+ - Desencriptar com aritmética modular [20 min];
+   - Valores relativos entre caracteres;
+   - Fazer desencriptações exemplo;
+   - Implementar desencriptação;
+   - Desencriptação por brute-force.
+ - Estabelecer paralelo entre encriptação e desencriptação [10 min];
+ - Introduzir a cifra afim [15 min];
+   - Fórmula $ax + b \mod L$;
+   - Equivalência entre $a = 1$ e cifra de César;
+   - Implementação da encriptação.
+ - Aritmética modular na cifra afim [25 min]
+   - Escolha do parâmetro $a$ em função de $L$;
+   - Inversão de $a$ em $\mathbb{Z}_L$;
+     - Caso particular em que $L$ é primo.
+   - Implementação da inversão em $\mathbb{Z}_L$;
+   - Implementação da desencriptação.
+
+
+# Workshop
 
 ## Introdução à cifra de César
 
