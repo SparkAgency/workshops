@@ -42,14 +42,14 @@ Este workshop está desenhado para 1h30 com participantes do ensino superior, de
    - Desencriptação por brute-force.
  - Estabelecer paralelo entre encriptação e desencriptação [10 min];
  - Introduzir a cifra afim [15 min];
-   - Fórmula $ax + b \mod L$;
-   - Equivalência entre $a = 1$ e cifra de César;
+   - Fórmula `ax + b mod L`;
+   - Equivalência entre `a = 1` e cifra de César;
    - Implementação da encriptação.
  - Aritmética modular na cifra afim [25 min]
-   - Escolha do parâmetro $a$ em função de $L$;
-   - Inversão de $a$ em $\mathbb{Z}_L$;
-     - Caso particular em que $L$ é primo.
-   - Implementação da inversão em $\mathbb{Z}_L$;
+   - Escolha do parâmetro `a` em função de `L`;
+   - Inversão de `a` em `Z_L`;
+     - Caso particular em que `L` é primo.
+   - Implementação da inversão em `Z_L`;
    - Implementação da desencriptação.
 
 
