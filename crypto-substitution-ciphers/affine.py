@@ -59,3 +59,31 @@ def decrypt(a, b, msg):
             decrypted += char
 
     return decrypted
+
+
+if __name__ == "__main__":
+
+    example = "The quick, brown, fox jumps (!) over the lazy dog."
+    a, b = 3, 10
+
+    print(f"Original message:")
+    print(f"\t{example}")
+    print(f"Encrypt with {a}x + {b}:")
+
+    encrypted = encrypt(a, b, example)
+    print(f"\t{encrypted}")
+
+    print(f"The inverse of {a} modulo {len(ABC)} is {multiplicative_inverse(a, len(ABC))}.")
+    print("The decryption is:")
+    print(f"\t{decrypt(a, b, encrypted)}")
+
+    print("\n" + "#"*40 + "\n")
+    
+    acc = 0
+    for a in range(len(ABC)):
+        for b in range(len(ABC)):
+            try:
+                acc += 1
+            except ValueError:
+                pass
+    print(f"Brute-forcing would take {acc} attempts.")
