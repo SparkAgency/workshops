@@ -47,9 +47,9 @@ Este workshop está desenhado para 1h30 com participantes do ensino superior, de
    - Implementação da encriptação.
  - Aritmética modular na cifra afim [25 min]
    - Escolha do parâmetro `a` em função de `L`;
-   - Inversão de `a` em `Z_L`;
+   - Inversão de produtos com aritmética modular;
      - Caso particular em que `L` é primo.
-   - Implementação da inversão em `Z_L`;
+   - Implementação da inversão da fórmula;
    - Implementação da desencriptação.
 
 
